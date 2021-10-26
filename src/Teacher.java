@@ -14,7 +14,7 @@ public class Teacher extends GeneralPersonInfo {
 
     @Override
     public void setVerb() {
-        GeneralPersonInfo.verb = "teaches";
+        verb = "teaches";
     }
 
     public void setAcademicDegreeTeacher(AcademicDegreeTeacher academicDegreeTeacher) {

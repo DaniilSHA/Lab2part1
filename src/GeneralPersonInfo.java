@@ -3,7 +3,7 @@ public abstract class GeneralPersonInfo {
     private String secondName;
     private Gender gender;
     private String nameFaculty;
-    protected static String verb;
+    protected String verb;
 
     public void setFirstName (String firstName) {
         this.firstName = firstName;
@@ -44,7 +44,7 @@ public abstract class GeneralPersonInfo {
     }
 
     public void print () {
-        System.out.print("This is " + getFirstName() + " " + getSecondName() + ". " + gender.getSayOne() + " " + verb + " at " + getNameFaculty() + ".");
+        System.out.print("This is " + getFirstName() + " " + getSecondName() + ". " + gender.getSayOne() + " " + getVerb() + " at " + getNameFaculty() + ".");
         System.out.println(printDetails());
     }
 

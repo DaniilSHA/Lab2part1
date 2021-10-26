@@ -14,8 +14,7 @@ public class Student extends GeneralPersonInfo{
 
 
     @Override
-    public void setVerb() {
-        GeneralPersonInfo.verb = "studies";
+    public void setVerb() {verb = "studies";
     }
 
     public void setAcademicDegreeStudent (AcademicDegreeStudent academicDegreeStudent) {

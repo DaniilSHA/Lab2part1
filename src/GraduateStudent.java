@@ -12,7 +12,7 @@ public class GraduateStudent extends GeneralPersonInfo{
 
     @Override
     public void setVerb() {
-        GeneralPersonInfo.verb = "studies";
+        verb = "studies";
     }
 
     public void setDissertationName (String dissertationName){
